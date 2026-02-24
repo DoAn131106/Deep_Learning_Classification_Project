@@ -5,7 +5,7 @@
 ## 📌 Project Overview
 This project implements a **Face Recognition System** using **PyTorch** and a **pretrained ResNet-18 model**. It performs **face classification** by training on cropped face images and evaluates performance using various metrics such as **accuracy, precision, recall, and F1-score**.
 
-## 🚀 Features
+## Features
 - **Pretrained ResNet-18** for feature extraction.
 - **Data Augmentation** for robust training.
 - **Train/Test Split (70/30)** for evaluation.
@@ -13,19 +13,20 @@ This project implements a **Face Recognition System** using **PyTorch** and a **
 - **Model Saving & Loading** for future inference.
 - **Confusion Matrix & Performance Metrics** visualization.
 
-## 📈 Model Evaluation
+## Model Evaluation
 The model automatically evaluates performance at the end of training. Metrics include:
 - **Final Validation Accuracy**
 - **Per-Class Accuracy**
 - **Precision, Recall, and F1 Score**
 
-## 📊 Visualization
+
+## Visualization
 The training script saves:
 1. **Confusion Matrix**
 2. **Loss & Accuracy Curves**
 
-## 🤝 Contributing
+## Contributing
 Pull requests are welcome! For major changes, please open an issue first.
 
-## 📜 License
+## License
 MIT License. See `LICENSE` for details.
